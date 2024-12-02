@@ -1,6 +1,6 @@
 export const BaseInfo = {
-  name: "Sajal",
-  position: "Full Stack Web Developer",
+  name: "Amruth L P",
+  position: "Full Stack Developer",
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
   profilePic: "/images/hero.png",
@@ -11,8 +11,8 @@ export const aboutInfo = {
   description:
     "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
   client: "50+",
-  experience: "3+",
-  project: "200+",
+  experience: "1.5+",
+  project: "30+",
   website: "100+",
 };
 
