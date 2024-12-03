@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
           {/* Text Content */}
-          <div className="">
+          <div>
             {/* Sub Heading */}
             <h1 className="text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold">
               I am {BaseInfo.name}

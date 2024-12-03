@@ -2,19 +2,22 @@ export const BaseInfo = {
   name: "Amruth L P",
   position: "Full Stack Developer",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+    "Full Stack Developer with expertise in the MERN stack, Next.js, and TypeScript. I build scalable web apps, SaaS platforms, and interactive user experiences. With a background in Aeronautical Engineering and Java Full Stack certification, I'm based in Bangalore and seeking impactful opportunities.",
   profilePic: "/images/hero.png",
 };
 
+
+
 export const aboutInfo = {
-  title: "Crafting Web Application with Passion and Precision",
+  title: "Building Impactful Digital Experiences",
   description:
-    "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-  client: "50+",
-  experience: "1.5+",
+    "I am a Full Stack Developer with a strong focus on building scalable and user-friendly web applications. With expertise in the MERN stack, Next.js, and TypeScript, I have successfully delivered various projects, from SaaS platforms to real estate and healthcare apps. My passion lies in creating impactful digital experiences that help businesses thrive.",
+  client: "15+",
+  experience: "2+ years",
   project: "30+",
-  website: "100+",
+  website: "20+",
 };
+
 
 export const servicesData = [
   {
