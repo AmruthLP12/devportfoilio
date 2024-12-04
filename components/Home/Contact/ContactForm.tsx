@@ -7,9 +7,10 @@ const ContactForm = () => {
         Let&apos;s Work together&#33;
       </h1>
       <p className="text-gray-200 mt-3 lg:text-base text-xs md:text-sm">
-        {" "}
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsum
-        accusamus hic, voluptatem velit molestias.
+        Have a project in mind or looking to collaborate&#63; Whether it&apos;s a web
+        application&#44; a SaaS platform&#44; or a unique idea, I&apos;m here to bring your
+        vision to life. Drop a message, and let&apos;s discuss how we can create
+        something amazing together&#33;
       </p>
       {/* input fields */}
       <form className="mt-8 block w-full overflow-hidden ">
