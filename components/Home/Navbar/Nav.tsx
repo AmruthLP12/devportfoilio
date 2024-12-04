@@ -31,7 +31,11 @@ const Nav = ({ openNav }: Props) => {
   }, []);
 
   return (
-    <div className={`fixed ${navBg?'bg-[#240b39]':'fixed'} h-[12vh] z-[10] w-full transition-all duration-200`}>
+    <div
+      className={`fixed ${
+        navBg ? "bg-[#240b39]" : "fixed"
+      } h-[12vh] z-[10] w-full transition-all duration-200`}
+    >
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
         <Image
@@ -54,9 +58,11 @@ const Nav = ({ openNav }: Props) => {
           </div>
           {/* Button */}
           <div className="flex items-center space-x-4">
-            <button className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
-              Hire Me
-            </button>
+            <Link href="#contact">
+              <button className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
+                Hire Me
+              </button>
+            </Link>
             {/* Burger */}
             <HiBars3BottomRight
               onClick={openNav}
