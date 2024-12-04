@@ -3,7 +3,7 @@ export const BaseInfo = {
   position: "Full Stack Developer",
   description:
     "Full Stack Developer with expertise in the MERN stack, Next.js, and TypeScript. I build scalable web apps, SaaS platforms, and interactive user experiences. With a background in Aeronautical Engineering and Java Full Stack certification, I'm based in Bangalore and seeking impactful opportunities.",
-  profilePic: "/images/hero.png",
+  profilePic: "/images/profile.png",
 };
 
 
@@ -126,58 +126,59 @@ export const skillsData = [
   },
   {
     id: 2,
+    title: "Next",
+    image: "/images/next.svg",
+    percent: "85%",
+  },
+  {
+    id: 3,
     title: "CSS",
     image: "/images/css.svg",
     percent: "97%",
   },
   {
-    id: 3,
+    id: 4,
     title: "JavaScript",
     image: "/images/js.svg",
     percent: "77%",
   },
   {
-    id: 4,
+    id: 5,
     title: "TypeScript",
     image: "/images/ts.svg",
     percent: "67%",
   },
   {
-    id: 5,
+    id: 6,
+    title: "Tailwind",
+    image: "/images/tailwind.svg",
+    percent: "75%",
+  },
+  {
+    id: 7,
     title: "HTML",
     image: "/images/html.svg",
     percent: "67%",
   },
   {
-    id: 6,
+    id: 8,
     title: "Node JS",
     image: "/images/node.svg",
     percent: "77%",
   },
   {
-    id: 7,
+    id: 9,
     title: "MongoDB",
     image: "/images/mongo.svg",
     percent: "65%",
   },
   {
-    id: 8,
+    id: 10,
     title: "Python",
     image: "/images/python.svg",
     percent: "55%",
   },
-  {
-    id: 9,
-    title: "Firebase",
-    image: "/images/firebase.svg",
-    percent: "75%",
-  },
-  {
-    id: 10,
-    title: "Vue",
-    image: "/images/vue.svg",
-    percent: "35%",
-  },
+  
 ];
 
 export const clientReviews = [
