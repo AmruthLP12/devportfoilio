@@ -23,7 +23,7 @@ const ContactInfo = () => {
           <FaEnvelope className="w-2 h-4 md:w-7 md:h-7 text-white" />
         </div>
         <div>
-          <h1 className="text-lg sm:text-xl text-white font-bold">EMail Address</h1>
+          <h1 className="text-lg sm:text-xl text-white font-bold">Email Address</h1>
           <h1 className="text-base sm:text-lg text-white text-opacity-70">
             {contactData.email}
           </h1>
